@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CPCCO_Stronger_300x250_horiz_atlas_", frames: [[0,0,300,250],[0,252,300,250],[0,504,259,107]]}
+		{name:"CPCCO_Stronger_300x250_horiz_atlas_", frames: [[0,252,300,250],[0,0,300,250],[0,504,259,107]]}
 ];
 
 
@@ -727,43 +727,59 @@ p.nominalBounds = new cjs.Rectangle(-67.8,-31.6,135.8,63.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(177).to({_off:false},0).to({alpha:1},10).wait(1));
 
-	// 2
+	// 2 copy
 	this.instance_2 = new lib.BLURClatsop();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(389,125);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(34).to({_off:false},0).to({x:158},7).to({_off:true},1).wait(146));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(36).to({_off:false},0).to({x:158},7).to({_off:true},1).wait(144));
 
-	// HEAD2
-	this.instance_3 = new lib.HEAD2();
+	// 2
+	this.instance_3 = new lib.BLURClatsop();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(414,22.4);
+	this.instance_3.setTransform(389,125);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(33).to({_off:false},0).to({x:150},6).to({_off:true},29).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(34).to({_off:false},0).to({x:158},7).to({_off:true},1).wait(146));
 
-	// 1
-	this.instance_4 = new lib.BLURTillamook();
+	// HEAD2
+	this.instance_4 = new lib.HEAD2();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(150,125);
+	this.instance_4.setTransform(414,22.4);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(29).to({_off:false},0).to({x:-30,mode:"synched",startPosition:0},8).to({_off:true},1).wait(150));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(33).to({_off:false},0).to({x:150},6).to({_off:true},29).wait(120));
+
+	// 1 copy
+	this.instance_5 = new lib.BLURTillamook();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(150,125);
+	this.instance_5._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(31).to({_off:false},0).to({x:-30,mode:"synched",startPosition:0},8).to({_off:true},1).wait(148));
+
+	// 1
+	this.instance_6 = new lib.BLURTillamook();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(150,125);
+	this.instance_6._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(29).to({_off:false},0).to({x:-30,mode:"synched",startPosition:0},8).to({_off:true},1).wait(150));
 
 	// HEAD1
-	this.instance_5 = new lib.HEAD1();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(150,22.4);
+	this.instance_7 = new lib.HEAD1();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(150,22.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(28).to({x:0},7).to({_off:true},1).wait(152));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(28).to({x:0},7).to({_off:true},1).wait(152));
 
 	// HEAD0
-	this.instance_6 = new lib.HEAD0();
-	this.instance_6.parent = this;
-	this.instance_6.setTransform(150,22.4);
+	this.instance_8 = new lib.HEAD0();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(150,22.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},113).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({_off:true},113).wait(75));
 
 	// bkgd
 	this.shape_1 = new cjs.Shape();
@@ -783,7 +799,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CPCCO_Stronger_300x250_horiz_atlas_.png?1572135475649", id:"CPCCO_Stronger_300x250_horiz_atlas_"}
+		{src:"images/CPCCO_Stronger_300x250_horiz_atlas_.png?1572475856595", id:"CPCCO_Stronger_300x250_horiz_atlas_"}
 	],
 	preloads: []
 };
