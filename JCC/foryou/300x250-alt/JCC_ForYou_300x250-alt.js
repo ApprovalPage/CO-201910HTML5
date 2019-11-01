@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"JCC_ForYou_300x250_alt_atlas_", frames: [[0,504,300,250],[0,0,300,250],[0,252,300,250]]}
+		{name:"JCC_ForYou_300x250_alt_atlas_", frames: [[0,0,300,250],[0,252,300,250],[0,504,300,250]]}
 ];
 
 
@@ -11,21 +11,21 @@ lib.ssMetadata = [
 
 
 
-(lib.JCC_300x250ForYoufarmer = function() {
+(lib.JCC_300x250ForYoufarmer2 = function() {
 	this.initialize(ss["JCC_ForYou_300x250_alt_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.JCC_300x250ForYouladies = function() {
+(lib.JCC_300x250ForYouladies2 = function() {
 	this.initialize(ss["JCC_ForYou_300x250_alt_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.JCC_300x250ForYouwaitress = function() {
+(lib.JCC_300x250ForYouwaitress2 = function() {
 	this.initialize(ss["JCC_ForYou_300x250_alt_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -157,7 +157,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.JCC_300x250ForYouwaitress();
+	this.instance = new lib.JCC_300x250ForYouwaitress2();
 	this.instance.parent = this;
 	this.instance.setTransform(-150,-125);
 
@@ -170,7 +170,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.JCC_300x250ForYouladies();
+	this.instance = new lib.JCC_300x250ForYouladies2();
 	this.instance.parent = this;
 	this.instance.setTransform(-150,-125);
 
@@ -183,7 +183,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.JCC_300x250ForYoufarmer();
+	this.instance = new lib.JCC_300x250ForYoufarmer2();
 	this.instance.parent = this;
 	this.instance.setTransform(-150,-125);
 
@@ -941,7 +941,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_ForYou_300x250_alt_atlas_.png?1572477495490", id:"JCC_ForYou_300x250_alt_atlas_"}
+		{src:"images/JCC_ForYou_300x250_alt_atlas_.png?1572650738213", id:"JCC_ForYou_300x250_alt_atlas_"}
 	],
 	preloads: []
 };
