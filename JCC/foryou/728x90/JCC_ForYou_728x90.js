@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"JCC_ForYou_728x90_atlas_", frames: [[0,252,300,250],[0,504,300,250],[0,0,300,250]]}
+		{name:"JCC_ForYou_728x90_atlas_", frames: [[0,504,300,250],[0,0,300,250],[0,252,300,250]]}
 ];
 
 
@@ -965,7 +965,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_ForYou_728x90_atlas_.png?1572212884370", id:"JCC_ForYou_728x90_atlas_"}
+		{src:"images/JCC_ForYou_728x90_atlas_.png?1572918789391", id:"JCC_ForYou_728x90_atlas_"}
 	],
 	preloads: []
 };
