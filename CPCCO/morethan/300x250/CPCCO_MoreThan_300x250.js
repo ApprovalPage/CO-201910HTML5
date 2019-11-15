@@ -710,6 +710,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(162).call(this.frame_162).wait(1));
 
+	// border
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
+	this.shape.setTransform(150,125);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(163));
+
 	// LOGO
 	this.instance = new lib.covwhiteeps("synched",0);
 	this.instance.parent = this;
@@ -733,7 +740,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(150,312.6,1,1,0,0,0,0,102.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:208.5},5,cjs.Ease.quintIn).wait(22).to({y:192.6},2).wait(22).to({y:177.6},2).wait(22).to({y:162.6},2).wait(24).to({y:174.6},0).wait(1).to({y:92.6},0).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:208.5},5,cjs.Ease.quintOut).wait(20).to({y:192.6},4).wait(20).to({y:177.6},4).wait(20).to({y:162.6},4).wait(15).to({y:92.6},6).to({_off:true},1).wait(64));
 
 	// HEAD2
 	this.instance_3 = new lib.HEAD2();
@@ -741,7 +748,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	this.instance_3.setTransform(150,312.6,1,1,0,0,0,0,102.6);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({y:222.6},5,cjs.Ease.quintIn).wait(22).to({y:207.6},2).wait(22).to({y:192.6},2).wait(25).to({y:174.6},0).wait(1).to({y:92.6},0).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({y:222.6},5,cjs.Ease.quintOut).wait(20).to({y:207.6},4).wait(20).to({y:192.6},4).wait(16).to({y:92.6},6).to({_off:true},1).wait(64));
 
 	// HEAD3
 	this.instance_4 = new lib.HEAD3();
@@ -749,7 +756,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	this.instance_4.setTransform(150,312.6,1,1,0,0,0,0,102.6);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(46).to({_off:false},0).to({y:237.6},5,cjs.Ease.quintIn).wait(22).to({y:222.6},2).wait(26).to({y:174.6},0).wait(1).to({y:92.6},0).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(46).to({_off:false},0).to({y:237.6},5,cjs.Ease.quintOut).wait(20).to({y:222.6},4).wait(17).to({y:92.6},6).to({_off:true},1).wait(64));
 
 	// HEAD4
 	this.instance_5 = new lib.HEAD4();
@@ -757,7 +764,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	this.instance_5.setTransform(150,312.6,1,1,0,0,0,0,102.6);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(69).to({_off:false},0).to({y:252.6},5,cjs.Ease.quintIn).wait(26).to({y:230.6},0).wait(1).to({y:174.6},0).wait(1).to({y:92.6},0).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(69).to({_off:false},0).to({y:252.6},5,cjs.Ease.quintOut).wait(18).to({y:230.6},0).to({y:92.6},6).to({_off:true},1).wait(64));
 
 	// HEAD5
 	this.instance_6 = new lib.HEAD5();
@@ -765,17 +772,17 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 	this.instance_6.setTransform(150,312.6,1,1,0,0,0,0,102.6);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(90).to({_off:false},0).to({y:112.6},12,cjs.Ease.quintIn).wait(61));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(90).to({_off:false},0).to({y:112.6},12,cjs.Ease.sineOut).wait(61));
 
 	// bkgd
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#009681").s().p("A3bTiMAAAgnDMAu3AAAMAAAAnDg");
-	this.shape.setTransform(150,125);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#009681").s().p("A3bTiMAAAgnDMAu3AAAMAAAAnDg");
+	this.shape_1.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(163));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(163));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(150,115,150,197.8);
+p.nominalBounds = new cjs.Rectangle(149.5,115,151,197.8);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
