@@ -950,20 +950,24 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-31.6,135.8,63.3);
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_215 = function() {
+	this.frame_132 = function() {
 		if(!this.alreadyExecuted){
 		this.alreadyExecuted=true;
 		this.loopNum=1;
+		this.gotoAndPlay(1);
 		} else {
 		this.loopNum++;
 		if(this.loopNum==2){
-		this.stop();
+		this.gotoAndPlay(134);
 		}
 		}
 	}
+	this.frame_215 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(215).call(this.frame_215).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(132).call(this.frame_132).wait(83).call(this.frame_215).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -1118,7 +1122,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CPCCO_Stronger_300x250_atlas_.png?1572916344662", id:"CPCCO_Stronger_300x250_atlas_"}
+		{src:"images/CPCCO_Stronger_300x250_atlas_.png?1576789642313", id:"CPCCO_Stronger_300x250_atlas_"}
 	],
 	preloads: []
 };
